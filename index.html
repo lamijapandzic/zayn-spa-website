@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="bs" class="notranslate">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+<title>Zayn Massage &amp; Spa — Ferhadija, Sarajevo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav-row">
+    <a href="#top" class="brand">
+      <img src="assets/logo.png" alt="Zayn Massage & Spa logo">
+      <span>Zayn<br><small data-i18n="brand.sub">MASSAGE &amp; SPA</small></span>
+    </a>
+
+    <nav class="links" id="navLinks">
+      <a href="#o-nama" data-i18n="nav.about">O nama</a>
+      <a href="#usluge" data-i18n="nav.services">Usluge</a>
+      <a href="#galerija" data-i18n="nav.gallery">Galerija</a>
+      <a href="#recenzije" data-i18n="nav.reviews">Recenzije</a>
+      <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+      <a href="#upit" class="btn btn-solid mobile-only-cta" data-i18n="nav.book" style="margin-top:6px;">Pošalji upit</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-toggle">
+  <select id="langSelect" aria-label="Jezik / Language">
+    <option value="bs">🇧🇦 BS</option>
+    <option value="en">🇬🇧 EN</option>
+    <option value="fr">🇫🇷 FR</option>
+    <option value="it">🇮🇹 IT</option>
+    <option value="de">🇩🇪 DE</option>
+    <option value="ar">🇸🇦 AR</option>
+    <option value="tr">🇹🇷 TR</option>
+    <option value="ja">🇯🇵 JA</option>
+    <option value="zh">🇨🇳 ZH</option>
+    <option value="ko">🇰🇷 KO</option>
+  </select>
+</div>
+      <button class="burger" id="burgerBtn" aria-label="Meni">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-motes" id="heroMotes"></div>
+
+    <div class="hero-logo-wrap">
+  <div class="hero-logo-shimmer"></div>
+  <img class="hero-logo" src="assets/logo.png" alt="Zayn Massage & Spa">
+</div>
+
+    <div class="hero-eyebrow eyebrow" data-i18n="hero.eyebrow">Ferhadija · Srce Sarajeva</div>
+
+    <div class="lamp-wrap">
+      <div class="lamp-glow"></div>
+      <h1 id="heroTitle">
+        <span style="animation-delay:.5s" data-i18n="hero.word1">Trenutak</span>
+        <span style="animation-delay:.8s" data-i18n="hero.word2">posvećen</span>
+        <span class="accent" style="animation-delay:1.1s" data-i18n="hero.word3">samo</span>
+        <span class="accent" style="animation-delay:1.4s" data-i18n="hero.word4">Vama.</span>
+      </h1>
+    </div>
+
+    <p class="hero-sub" data-i18n="hero.sub">Butik salon za masažu i spa u samom srcu starog Sarajeva —
+      <br>gdje prigušeno svjetlo i tišina rade jednako koliko i naše ruke.</p>
+
+    <div class="hero-transform">
+      <p class="transform-title" data-i18n="transform.title">Ostavite vanjski svijet iza sebe</p>
+
+      <div class="ba-slider" id="baSlider" role="group" aria-label="Prije i poslije">
+        <div class="ba-layer ba-before">
+          <span class="ba-tag" data-i18n="transform.beforeLabel">Prije</span>
+          <ul class="ba-words">
+            <li data-i18n="transform.before1">Napetost</li>
+            <li data-i18n="transform.before2">Stres</li>
+            <li data-i18n="transform.before3">Umor</li>
+          </ul>
+        </div>
+        <div class="ba-layer ba-after" id="baAfterLayer">
+          <span class="ba-tag" data-i18n="transform.afterLabel">Poslije</span>
+          <ul class="ba-words">
+            <li data-i18n="transform.after1">Opušteno</li>
+            <li data-i18n="transform.after2">Obnovljeno</li>
+            <li data-i18n="transform.after3">Uravnoteženo</li>
+          </ul>
+        </div>
+        <div class="ba-handle" id="baHandle" role="slider" aria-valuemin="8" aria-valuemax="92" aria-valuenow="50" tabindex="0" aria-label="Prije / Poslije">
+          <span class="ba-handle-line"></span>
+          <span class="ba-handle-knob" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 14 14"><path d="M4 3 1 7l3 4M10 3l3 4-3 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+          </span>
+        </div>
+      </div>
+      <p class="ba-hint" data-i18n="transform.hint">Povucite klizač</p>
+      <div class="scroll-cue"><span data-i18n="hero.scroll">Skroluj</span><span class="line"></span></div>
+    </div>
+  </section>
+
+  <!-- O NAMA -->
+  <section id="o-nama" class="about">
+    <div class="wrap about-grid">
+      <div class="about-media reveal">
+        <img src="assets/salon-lounge.jpg" alt="Enterijer Zayn salona">
+        <div class="tag" data-i18n="about.tag">Zayn Lounge</div>
+      </div>
+      <div class="about-text reveal">
+        <div class="eyebrow" data-i18n="about.eyebrow">O nama</div>
+        <p class="quote" data-i18n="about.quote">„Opuštanje nije luksuz — to je povratak sebi.“</p>
+        <p data-i18n="about.p1">Zayn Massage &amp; Spa je butik salon smješten na Ferhadiji, u samom srcu Sarajeva. Iza starih zidina krije se prostor u prigušenom, toplom tonu — baršun, mesing i miris eteričnih ulja — stvoren da usporite i predahnete.</p>
+        <p data-i18n="about.p2">Spajamo tradicionalne bosanske tehnike masaže s modernim ritualima opuštanja, uz pažnju posvećenu svakom detalju — od svjetla do tišine.</p>
+        <p> Ovdje vrijeme usporava.<br>Ovdje briga o sebi postaje ritual.</p>
+        <div class="about-stats">
+          <div><strong data-i18n="about.stat1n">7+</strong><span data-i18n="about.stat1l">Godina iskustva</span></div>
+          <div><strong data-i18n="about.stat2n">5</strong><span data-i18n="about.stat2l">Vrsta tretmana</span></div>
+          <div><strong data-i18n="about.stat3n">100%</strong><span data-i18n="about.stat3l">Prirodna ulja</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- USLUGE -->
+
+<section id="usluge" class="services">
+
+  <div class="wrap">
+
+    <div class="section-head center reveal">
+
+      <div class="eyebrow" data-i18n="services.eyebrow">Ponuda</div>
+
+      <h2 data-i18n="services.title">Naš meni tretmana</h2>
+
+      <p data-i18n="services.sub">
+        Svaki tretman je prilagođen Vašem tempu —<br> birajte trajanje i tehniku koja Vam najviše odgovara danas.</p>
+
+    </div>
+
+    <div class="reveal">
+
+      <!-- KLASIČNE MASAŽE -->
+
+      <div class="service-group">
+
+        <div class="service-group-head">
+          <h3 data-i18n="services.g1">Klasične masaže</h3>
+          <div class="rule"></div>
+        </div>
+
+        <p data-i18n="services.g1types">Relax • Sportska • Medicinska masaža</p>
+
+
+        <div class="service-item">
+
+          <div class="duration">30'</div>
+
+          <div class="info">
+            <h4 data-i18n="services.r30.h">Kratki predah</h4>
+
+            <p data-i18n="services.r30.p">
+              Kratka, ali učinkovita masaža namijenjena opuštanju i oslobađanju
+              od svakodnevne napetosti. Idealna je kada Vam je potrebno brzo
+              osvježenje tijela, posebno nakon napornog dana, dugog sjedenja
+              ili fizičkog napora.
+            </p>
+          </div>
+
+          <div class="price">80 KM</div>
+
+        </div>
+
+
+        <div class="service-item">
+
+          <div class="duration">45'</div>
+
+          <div class="info">
+            <h4 data-i18n="services.r45.h">Uravnoteženi tretman</h4>
+
+            <p data-i18n="services.r45.p">
+              Duži tretman koji omogućava detaljniju masažu i posvećenost
+              područjima u kojima osjećate najveću napetost. Posebno je pogodan
+              za leđa, vrat, ramena i noge, uz izbor tehnike prema Vašim potrebama.
+            </p>
+          </div>
+
+          <div class="price">100 KM</div>
+
+        </div>
+
+
+        <div class="service-item">
+
+          <div class="duration">60'</div>
+
+          <div class="info">
+            <h4 data-i18n="services.r60.h">Potpuno opuštanje</h4>
+
+            <p data-i18n="services.r60.p">
+              Sat vremena posvećenih potpunom opuštanju i njezi cijelog tijela.
+              Masaža se prilagođava Vašim željama i potrebama, uz posebnu pažnju
+              na područja koja su opterećena napetošću. Savršen izbor za potpuni
+              predah od svakodnevnog stresa.
+            </p>
+          </div>
+
+          <div class="price">120 KM</div>
+
+        </div>
+
+      </div>
+
+
+      <!-- MASAŽA STOPALA -->
+
+      <div class="service-group">
+
+        <div class="service-group-head">
+          <h3 data-i18n="services.gFoot">Masaža stopala</h3>
+          <div class="rule"></div>
+        </div>
+
+
+        <div class="service-item">
+
+          <div class="duration">30'</div>
+
+          <div class="info">
+            <h4 data-i18n="services.foot.h">Opuštanje i rasterećenje</h4>
+
+            <p data-i18n="services.foot.p">
+              Posebno namijenjena umornim i opterećenim stopalima. Masaža pomaže
+              u smanjenju osjećaja težine i napetosti, potiče osjećaj bolje
+              cirkulacije i pruža ugodno olakšanje nakon dugog stajanja, hodanja
+              ili svakodnevnog opterećenja. Idealna za trenutke kada Vašim stopalima
+              treba poseban odmor i pažnja.
+            </p>
+          </div>
+
+          <div class="price">80 KM</div>
+
+        </div>
+
+      </div>
+
+
+      <!-- VIP MASAŽE -->
+
+      <div class="service-group">
+
+        <div class="service-group-head">
+          <h3 data-i18n="services.gVip">VIP tretmani</h3>
+          <div class="rule"></div>
+        </div>
+
+
+        <!-- VIP PAKET -->
+
+        <div class="service-item">
+
+          <div class="duration">75'</div>
+
+          <div class="info">
+
+            <h4 data-i18n="services.vip.h">VIP paket</h4>
+
+            <p data-i18n="services.vip.p">
+              Ekskluzivni tretman osmišljen kao potpuno iskustvo njege i
+              opuštanja. Paket uključuje 60 minuta masaže po Vašem izboru,
+              15 minuta pilinga lica, masažu lica, umirujuću masku za lice,
+              masažu glave i tjemena te masažu stopala. Nakon tretmana,
+              <strong>sauna je uključena</strong> za dodatni osjećaj relaksacije
+              i potpunog uživanja.
+            </p>
+
+          </div>
+
+          <div class="price">200 KM</div>
+
+        </div>
+
+
+        <!-- VIP HARMONY -->
+
+        <div class="service-item">
+
+          <div class="duration">60'</div>
+
+          <div class="info">
+
+            <h4 data-i18n="services.harmony.h">VIP HARMONY paket</h4>
+
+            <p data-i18n="services.harmony.p">
+              Harmoničan spoj njege kože i dubokog opuštanja. Tretman započinje
+              sa 30 minuta pilinga tijela sa solnim pilingom iz Mrtvog mora,
+              nakon čega slijedi 30 minuta opuštajuće masaže. Nakon masaže,
+              <strong>sauna je uključena</strong>, kako biste tretman završili
+              u potpunom miru i osjećaju lakoće.
+            </p>
+
+          </div>
+
+          <div class="price">180 KM</div>
+
+        </div>
+
+      </div>
+
+
+      <!-- HIDŽAMA -->
+
+      <div class="service-group">
+
+        <div class="service-group-head">
+          <h3 data-i18n="services.gHij">Hidžama</h3>
+          <div class="rule"></div>
+        </div>
+
+
+        <div class="service-item">
+
+          <div class="duration">45'</div>
+
+          <div class="info">
+
+            <h4 data-i18n="services.hij.h">Tradicionalno kupiranje</h4>
+
+            <p data-i18n="services.hij.p">
+              Hidžama je tradicionalna metoda njege koja koristi kontrolisani
+              vakuum na koži i stoljećima se praktikuje kao dio različitih
+              wellness i tradicionalnih pristupa. Tretman je namijenjen onima
+              koji žele prirodan i tradicionalan način opuštanja i osjećaj
+              rasterećenja organizma, uz profesionalan i pažljiv pristup.
+            </p>
+
+          </div>
+
+          <div class="price">150 KM</div>
+
+        </div>
+
+      </div>
+
+
+      <!-- BOSANSKA MASAŽA -->
+
+      <div class="service-group">
+
+        <div class="service-group-head">
+          <h3 data-i18n="services.gBos">Bosanska masaža</h3>
+          <div class="rule"></div>
+        </div>
+
+
+        <div class="service-item">
+
+          <div class="duration">60'</div>
+
+          <div class="info">
+
+            <h4 data-i18n="services.bos.h">Tradicionalni bosanski ritual</h4>
+
+            <p data-i18n="services.bos.p">
+              Jedinstveni tretman inspirisan tradicionalnim bosanskim načinom
+              njege tijela. Birate tip masaže koji Vam najviše odgovara, a
+              tretman se izvodi toplom vodom i prirodnim kozjim sapunom.
+              Nakon masaže slijedi tuširanje, kako biste završili tretman
+              osjećajem čistoće, svježine i potpunog opuštanja.
+            </p>
+
+          </div>
+
+          <div class="price">250 KM</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- QUOTE -->
+  <div class="quote-banner reveal">
+    <div class="wrap">
+      <span class="mark">&rdquo;</span>
+      <p data-i18n="quote.text">Svaki dodir priča svoju priču o miru.</p>
+      <cite data-i18n="quote.cite">Zayn Massage &amp; Spa</cite>
+    </div>
+  </div>
+
+  <!-- GALERIJA -->
+  <section id="galerija" class="gallery">
+    <div class="gallery-grid reveal">
+
+      <div class="gallery-item gallery-lounge">
+        <img src="assets/salon-lounge.jpg" alt="Lounge salona Zayn">
+        <div class="cap">Zayn Lounge</div>
+      </div>
+
+      <div class="gallery-item gallery-room1">
+        <img src="assets/salon-room1.jpg" alt="Soba za masažu">
+        <div class="cap">Private Treatment</div>
+      </div>
+
+      <div class="gallery-item gallery-massage">
+        <img src="assets/salon-massage.jpg" alt="Masaža u Zayn salonu">
+        <div class="cap">The Art of Massage</div>
+      </div>
+
+      <div class="gallery-item gallery-room">
+        <img src="assets/salon-room.jpg" alt="Detalj enterijera">
+        <div class="cap">Trenutak mira</div>
+      </div>
+
+      <div class="gallery-item gallery-sauna">
+        <img src="assets/salon-sauna.jpg" alt="Sauna Zayn">
+        <div class="cap">Deep Relaxation</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RECENZIJE -->
+  <section id="recenzije" class="reviews">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <div class="eyebrow" data-i18n="reviews.eyebrow">Recenzije</div>
+        <h2 data-i18n="reviews.title">Riječi naših gostiju</h2>
+      </div>
+
+      <div class="review-grid reveal">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r1">„Zayn Massage je bez sumnje najbolja masaža u Sarajevu! Profesionalno osoblje, opuštajuća atmosfera i nevjerovatna tehnika. Otišla sam osjećajući se potpuno osvježeno, a čvorovi na leđima su se osjećali znatno bolje. Toplo preporučujem!!!“</p>
+          <button class="review-more" onclick="toggleReview(this)" data-i18n="reviews.showMore">
+  Prikaži više
+</button>
+          <div class="who"><div class="avatar">NO</div><span data-i18n="reviews.n1">Nina O.</span></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r2">„Ovo mjesto je nevjerovatno, kao i osoblje, vlasnik je također skroman i profesionalan. Nećete otići nezadovoljni, masaža je bila nevjerovatna, a masažerka se pobrinula da mi je ugodno tokom cijele usluge. Na kraju su nam napravili i bosansku kafu... ovo ne možete dobiti nigdje drugdje...“</p>
+          <button class="review-more" onclick="toggleReview(this)" data-i18n="reviews.showMore">
+  Prikaži više
+</button>
+<div class="who"><div class="avatar">MM</div><span data-i18n="reviews.n2">Mikky M.</span></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r3">„Posjetila sam ovaj salon masaže i mogu reći da sam prezadovoljna uslugom. Prostor je čist, uredan i veoma ugodan, a atmosfera opuštajuća od samog ulaska. Osoblje je ljubazno, profesionalno i posvećeno klijentima☺️“</p>
+          <div class="who"><div class="avatar">NM</div><span data-i18n="reviews.n3">Nejla M.</span></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r4">„Za svaku preporuku! Profesionalnost,ljubaznost i usluga je iznad svih očekivanja. Nigdje nismo dobili učinkovitiju i profesionalniju masažu, a prošli smo ih da ne znamo ni broja, i važno je istaknuti,da smo imali većih problema, tako da već kada smo otišli bolova više nije bilo, jer su vješte i profesionalne ruke odradile posao. Ovako nešto nije nam urađeno uz sve dodatne aparate koji se koriste u svim fizikalnim terapijama na kojima smo do sada bili.
+Evo već i nakon 10 dana, mi smo kao novi i kao da nikada nismo imali bilo kakvih problema sa kralježnicom.
+Velika hvala cijelom osoblju i samo naprijed. Zlatne ruke Mie, najbolje fizioterapeutkinje ❤️. Veliki pozdrav gosp. Omaru i hvala mu na njegovoj profesionalnosti u poslu koji radi kao i supruzi na velikoj ljubaznosti.
+Vidimo se uskoro, jer definitivno vrijedi prijeći i više od naših 350km do vas, riješiti probleme i vratiti se kući kao novi❤️❤️❤️“</p>
+<button class="review-more" onclick="toggleReview(this)" data-i18n="reviews.showMore">
+  Prikaži više
+</button>
+          <div class="who"><div class="avatar"></div><span data-i18n="reviews.n4">Ana O.</span></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r5">„Predivno iskustvo od trenutka kada sam ušla u salon do trenutka kada sam izašla. Ambijent je miran, čist i vrlo opuštajući, a terapeuti su izuzetno profesionalni i stručni. Masaža je urađena umjereno, tačno po potrebi, bez žurbe ili improvizacije. Možete osjetiti da znaju šta rade i da im je stalo do klijenta. Nakon tretmana, osjećala sam se lagano i potpuno opušteno. Toplo preporučujem, definitivno ću se vratiti!“</p>
+          <button class="review-more" onclick="toggleReview(this)" data-i18n="reviews.showMore">
+  Prikaži više
+</button>
+<div class="who"><div class="avatar">M</div><span data-i18n="reviews.n5">Mill.</span></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r6">„Ako dolazite u Sarajevo, obavezno dođite ovdje - imala sam terapeutkinju po imenu Jenni i došla sam s mamom, imala je terapeutkinju po imenu Tera i bili su tako divni, 100% preporučujem! Uspjela sam se opustiti i osjećam se kao da je sav stres koji sam imala nestao. Vrlo su ljubazni i osjećam se opušteno.“</p>
+          <button class="review-more" onclick="toggleReview(this)" data-i18n="reviews.showMore">
+  Prikaži više
+</button><div class="who"><div class="avatar">TK</div><span data-i18n="reviews.n6">Thanjeela K.</span></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r7">„Bilo je nevjerovatno, a djevojke su nas dočekale u toploj atmosferi, zaista vam preporučujem da ovdje zakažete masažu!“</p>
+          <div class="who"><div class="avatar">MP</div><span data-i18n="reviews.n7">Micaela P.</span></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="reviews.r8">„Veoma sam zadovoljna uslugom. Ambijent je opuštajući, prostor je čist i prijatan, a osoblje profesionalno i ljubazno.Hidzama je bila izuzetno kvalitetna tačno ono što mi je trebalo za opuštanje i otklanjanje napetosti. Topla preporuka svima koji žele da se istinski odmore.Takodjer Omar i djevojke koji rade tu su veoma profesionalni i ljubazni.
+            “</p>
+          <button class="review-more" onclick="toggleReview(this)" data-i18n="reviews.showMore">
+  Prikaži više
+</button>
+<div class="who"><div class="avatar">LM</div><span data-i18n="reviews.n8">Lejla M.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- KONTAKT -->
+  <section id="kontakt" class="contact">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <div class="section-head" style="margin-bottom:0;">
+          <div class="eyebrow" data-i18n="contact.eyebrow">Kontakt</div>
+          <h2 data-i18n="contact.title">Posjetite nas</h2>
+        </div>
+
+        <ul class="contact-list">
+          <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22Z"/><circle cx="12" cy="9.5" r="2.4"/></svg></span><div><h5 data-i18n="contact.addrT">Adresa</h5><p data-i18n="contact.addrD">Ferhadija 24, 71000 Sarajevo — u srcu starog grada</p></div></li>
+          <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg></span><div><h5 data-i18n="contact.phoneT">Telefon</h5><p>+387 61 231 251</p></div></li>
+          <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m4 6.5 8 6.5 8-6.5"/></svg></span><div><h5 data-i18n="contact.emailT">Email</h5><p>zaynspa@gmail.com</p></div></li>
+          <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span><div><h5 data-i18n="contact.hoursT">Radno vrijeme</h5><p data-i18n="contact.hoursD">Pon – Ned: 11:00 – 23:00 </p></div></li>
+        </ul>
+
+        <div class="socials">
+          <a href="https://www.instagram.com/zaynmassage?igsi=MWk2YXlpMGN3bHZubw==" aria-label="Instagram"><img src="assets/instagram.jpeg" alt="Instagram"></a>
+          <a href="https://www.facebook.com/share/1DdbtVFWTX/?mibextid=wwXIfr" aria-label="Facebook"><img src="assets/facebook.png" alt="Facebook"></a>
+          <a href="https://wa.me/38761231251" aria-label="Whatsapp"><img src="assets/whatsapp.png" alt="Whatsapp"></a>
+        </div>
+      </div>
+
+      <div class="map-wrap reveal">
+        <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Ferhadija 24,+Sarajevo&output=embed"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+    <!-- WHATSAPP / VIBER UPIT -->
+    <section id="upit" class="booking">
+      <div class="wrap booking-grid">
+        <div class="booking-info reveal">
+          <div class="eyebrow" data-i18n="wa.eyebrow">Upit</div>
+          <h2 data-i18n="wa.title">Pošaljite upit</h2>
+          <p data-i18n="wa.sub">Ispunite kratku formu — zatim odaberite WhatsApp ili Viber. Poruka se šalje na naš broj 061 231 251.</p>
+        </div>
+
+        <div class="booking-card reveal">
+          <form id="whatsappForm" novalidate>
+            <div class="field">
+              <label data-i18n="wa.lname">Ime i prezime</label>
+              <input type="text" id="waName" autocomplete="name" required>
+              <div class="err-msg" data-i18n="wa.errName">Unesite ime i prezime.</div>
+            </div>
+
+            <div class="field">
+              <label data-i18n="wa.lnote">Napišite poruku / upit</label>
+              <textarea id="waNote" rows="5" data-i18n-placeholder="wa.notePlaceholder" placeholder="Napišite svoj upit ovdje..." required></textarea>
+              <div class="err-msg" data-i18n="wa.errNote">Unesite poruku.</div>
+            </div>
+
+            <div class="submit-row submit-row-dual">
+              <button type="button" id="waSendBtn" class="btn btn-solid" data-i18n="wa.submit">Pošalji upit na WhatsApp</button>
+              <button type="button" id="viberSendBtn" class="btn btn-ghost" data-i18n="wa.submitViber">Pošalji upit putem Vibera</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="Zayn logo">
+          <span>ZAYN MASSAGE &amp; SPA</span>
+        </div>
+        <p data-i18n="footer.desc">Butik salon za masažu i spa na Ferhadiji, u srcu Sarajeva. Prostor stvoren za usporavanje.</p>
+      </div>
+      <div class="footer-col">
+        <h6 data-i18n="footer.linksT">Brzi linkovi</h6>
+        <ul>
+          <li><a href="#o-nama" data-i18n="nav.about">O nama</a></li>
+          <li><a href="#usluge" data-i18n="nav.services">Usluge</a></li>
+          <li><a href="#galerija" data-i18n="nav.gallery">Galerija</a></li>
+          <li><a href="#recenzije" data-i18n="nav.reviews">Recenzije</a></li>
+          <li><a href="#upit" data-i18n="nav.book">Pošalji upit</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h6 data-i18n="footer.contactT">Kontakt</h6>
+        <ul>
+          <li data-i18n="contact.addrD">Ferhadija 24, 71000 Sarajevo</li>
+          <li>+387 61 231 251</li>
+          <li>zaynspa@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copy">© 2026 Zayn Massage &amp; Spa. Sva prava zadržana.</p>
+      <p data-i18n="footer.made">Ferhadija 24 · Sarajevo</p>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
